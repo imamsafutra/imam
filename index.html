@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, iniitial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+	<header>
+		<img id="logo" src="img/logo.png" width="200px" />
+	</header>
+	<section>
+		<h1>Body Mass Index (BMI) </h1>
+		<div id="article-list">		            
+				<article>
+					<a href="">
+						<h3>Indeks Masa Tubuh (IMT)</h3>
+					  </a>
+					  <p>
+						  		Adalah angka yang menjadi penilaian standar untuk 
+						  menentukan apakah berat badan Anda tergolong normal, 
+						  kurang, berlebih, atau obesitas
+					  </p>
+				</article>
+
+				<article>
+					<h5>
+						Untuk menghitung BMI Anda, silakan jawab dua pertanyaan berikut:
+					</h5>
+						<h4><label>Berat Badan (kg):</label></h4>
+						<div class="row">
+						<input type="text" placeholder="Masukan berat badan" id="weight">
+						<h4><label>Tinggi Badan (cm):</label></h4>
+						<div class="row">
+						<input type="text"placeholder="Masukan tinggi badan" id="height">
+						<h4 class="row"></h4>
+						<button class="btn btn-primary" type="button" onClick="calculateBmi()">HITUNG</button>
+											
+				</article>
+						
+				<article>
+					<h4><label>BMI:</label></h4>
+						<div class="row">
+						<input class="form-control" type="text" id="bmi" size="28" readonly >
+						<h4><label>Hasil:</label></h4>
+						<div clas="row">
+						<input class="form-control" type="text" id="result" size="28" readonly>
+						<h4 class="row"></h4>
+						<button class="btn btn-primary" type="reset">  Reset</button>
+				</article>	
+			</section>
+		
+		</form>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
